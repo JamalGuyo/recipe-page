@@ -19,7 +19,8 @@
 
   --flow-space: 2rem;
   --radius: 0.5rem;
-  --gutter: 1rem;
+  --gutter-1: 1rem;
+  --gutter-2: 2rem;
 
 }
 
@@ -85,7 +86,11 @@ table {
 .wrapper .title,
 .wrapper .description,
 .wrapper hr {
-  margin-inline: var(--gutter);
+  margin-inline: var(--gutter-1);
+}
+
+.wrapper:last-child {
+  padding-bottom: var(--gutter-2);
 }
 
 .bottom-line {
@@ -100,7 +105,7 @@ body {
   background-color: var(--clr-stone-100);
   display: grid;
   place-items: center;
-  gap: var(--gutter);
+  gap: var(--gutter-1);
 }
 
 h1,
@@ -156,7 +161,7 @@ tr {
 }
 
 .recipe .preparation {
-  padding: var(--gutter);
+  padding: var(--gutter-1);
 }
 
 /**Attribution*/
@@ -176,7 +181,7 @@ tr {
   }
 
   .wrapper {
-    padding: var(--gutter);
+    padding: var(--gutter-1);
   }
 
   .wrapper .section,
