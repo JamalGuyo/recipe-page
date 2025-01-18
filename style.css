@@ -63,9 +63,10 @@ img {
   color: var(--clr-rose-800)
 }
 
-.wrapper section,
+.wrapper .section,
 .wrapper .title,
-.wrapper .description {
+.wrapper .description,
+.wrapper hr {
   margin-inline: var(--gutter);
 }
 
@@ -149,9 +150,10 @@ li {
     padding: var(--gutter);
   }
 
-  .wrapper section,
+  .wrapper .section,
   .wrapper .title,
-  .wrapper .description {
+  .wrapper .description,
+  .wrapper hr {
     margin-inline: 0;
   }
 
