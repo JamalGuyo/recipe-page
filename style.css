@@ -21,6 +21,7 @@
   --radius: 0.5rem;
   --gutter-1: 1rem;
   --gutter-2: 2rem;
+  --gutter-4: 4rem;
 
 }
 
@@ -187,7 +188,7 @@ th {
 /*large screen*/
 @media (min-width: 375px) {
   body {
-    padding: var(--gutter-2);
+    padding: var(--gutter-4);
   }
 
   .wrapper {
