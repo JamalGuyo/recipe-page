@@ -154,6 +154,11 @@ tr {
   font-weight: var(--fw-400);
 }
 
+td,
+th {
+  padding-inline: var(--gutter-1);
+}
+
 /*Components*/
 
 .recipe {
@@ -175,13 +180,13 @@ tr {
 }
 
 /*large screen*/
-@media (min-width: 325px) {
+@media (min-width: 375px) {
   body {
-    padding: 2rem;
+    padding: var(--gutter-2);
   }
 
   .wrapper {
-    padding: var(--gutter-1);
+    padding: var(--gutter-2);
   }
 
   .wrapper .section,
