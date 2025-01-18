@@ -116,7 +116,7 @@ h2 {
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2rem;
 }
 
@@ -166,7 +166,7 @@ th {
 /*Components*/
 
 .recipe {
-  max-width: 40rem;
+  max-width: 48rem;
 }
 
 .recipe .preparation {
